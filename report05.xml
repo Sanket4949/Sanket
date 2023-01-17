@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="10" time="31.784" timestamp="2023-01-12T07:20:36.776700" hostname="LAPTOP-53IEGCJA"><testcase classname="test_file_01" name="test_amb_00" time="0.001" /><testcase classname="test_file_01" name="test_amb_01" time="0.001"><failure message="assert 10 == 20">def test_amb_01():
+        x = 10
+        y = 20
+&gt;       assert x==y
+E       assert 10 == 20
+
+test_file_01.py:12: AssertionError</failure></testcase><testcase classname="test_file_02" name="test_amb" time="0.001" /><testcase classname="test_file_02" name="test_amb_01" time="0.000"><failure message="assert 10 == 20">def test_amb_01():
+        x = 10
+        y = 20
+&gt;       assert x==y
+E       assert 10 == 20
+
+test_file_02.py:19: AssertionError</failure></testcase><testcase classname="test_file_02" name="test_notification_00" time="0.059" /><testcase classname="test_file_02" name="test_text_01" time="0.099" /><testcase classname="test_file_02" name="test_password_02" time="0.093" /><testcase classname="test_file_02" name="test_textarea_03" time="0.179" /><testcase classname="test_file_02" name="test_checkboxes_04" time="0.220" /><testcase classname="test_file_02" name="test_radiobutton_05" time="12.535" /></testsuite></testsuites>
